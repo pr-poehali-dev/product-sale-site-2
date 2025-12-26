@@ -64,9 +64,9 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'gradient-purple': 'linear-gradient(135deg, #9b87f5 0%, #D946EF 100%)',
-				'gradient-orange': 'linear-gradient(135deg, #F97316 0%, #ea384c 100%)',
-				'gradient-radial': 'radial-gradient(circle at top right, rgba(155, 135, 245, 0.2), transparent 50%)'
+				'gradient-resin': 'linear-gradient(135deg, #0EA5E9 0%, #8B5CF6 100%)',
+				'gradient-ocean': 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
+				'gradient-radial': 'radial-gradient(circle at top right, rgba(14, 165, 233, 0.15), transparent 70%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
