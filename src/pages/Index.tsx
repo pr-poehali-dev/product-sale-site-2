@@ -30,101 +30,101 @@ const Index = () => {
   const products: Product[] = [
     {
       id: 1,
-      name: 'Эпоксидная смола Crystal Pro',
-      category: 'resin',
-      price: 2890,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/9cc8fe2a-01db-4e0e-ab87-d5714eb45177.jpg',
-      description: 'Кристально прозрачная смола для заливки',
-      badge: 'Хит'
+      name: 'Кристалл Души +16',
+      category: 'crystals',
+      price: 15000,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/38970701-91fc-4548-85a6-045feaac369b.jpg',
+      description: 'Легендарный кристалл для усиления оружия',
+      badge: 'Легенда'
     },
     {
       id: 2,
-      name: 'Набор пигментов 12 цветов',
-      category: 'pigments',
-      price: 1490,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/7767a759-1b42-4a20-8bbe-24f52a942456.jpg',
-      description: 'Яркие концентрированные пигменты'
+      name: 'Доспех Дракона S-Grade',
+      category: 'armor',
+      price: 89000,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/36cc0ee0-aaf1-4224-8d24-5b1cc56fc0d3.jpg',
+      description: 'Эпический комплект брони'
     },
     {
       id: 3,
-      name: 'Силиконовые формы Ocean Wave',
-      category: 'molds',
-      price: 890,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/2d07f6da-f5f0-4608-ae98-6e8f1e3cdb3a.jpg',
-      description: 'Набор форм для создания подставок'
+      name: 'Свиток Воскрешения x100',
+      category: 'consumables',
+      price: 8900,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/38970701-91fc-4548-85a6-045feaac369b.jpg',
+      description: 'Пакет свитков для рейдов'
     },
     {
       id: 4,
-      name: 'Эпоксидная смола River Table',
-      category: 'resin',
-      price: 4590,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/9cc8fe2a-01db-4e0e-ab87-d5714eb45177.jpg',
-      description: 'Специальная смола для столов-рек',
-      badge: 'New'
+      name: 'Меч Заррича +10',
+      category: 'weapons',
+      price: 125000,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/36cc0ee0-aaf1-4224-8d24-5b1cc56fc0d3.jpg',
+      description: 'Легендарное оружие',
+      badge: 'ТОП'
     },
     {
       id: 5,
-      name: 'Металлические пигменты Premium',
-      category: 'pigments',
-      price: 1890,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/7767a759-1b42-4a20-8bbe-24f52a942456.jpg',
-      description: 'Золото, серебро, медь'
+      name: 'Элексир Здоровья x50',
+      category: 'consumables',
+      price: 4500,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/38970701-91fc-4548-85a6-045feaac369b.jpg',
+      description: 'Моментальное восстановление HP'
     },
     {
       id: 6,
-      name: 'Набор инструментов для работы',
-      category: 'tools',
-      price: 2190,
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/7767a759-1b42-4a20-8bbe-24f52a942456.jpg',
-      description: 'Миксеры, шпатели, стаканы'
+      name: 'Камень Телепортации x200',
+      category: 'consumables',
+      price: 12000,
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/38970701-91fc-4548-85a6-045feaac369b.jpg',
+      description: 'Быстрое перемещение по миру'
     }
   ];
 
   const galleryWorks = [
     {
-      title: 'Стол-река Ocean Blue',
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/2d07f6da-f5f0-4608-ae98-6e8f1e3cdb3a.jpg',
-      author: 'Мария К.'
+      title: 'Рейд на Баюма',
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/36cc0ee0-aaf1-4224-8d24-5b1cc56fc0d3.jpg',
+      author: 'Клан DragonKnights'
     },
     {
-      title: 'Подстаканники с цветами',
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/7767a759-1b42-4a20-8bbe-24f52a942456.jpg',
-      author: 'Александр П.'
+      title: 'Массовое PvP Castle Siege',
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/93b9c6cb-c4b3-4ee2-b5ec-ae2e81a4fe93.jpg',
+      author: 'Клан DarkLegion'
     },
     {
-      title: 'Ювелирные украшения',
-      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/9cc8fe2a-01db-4e0e-ab87-d5714eb45177.jpg',
-      author: 'Елена С.'
+      title: 'Эпические Боссы',
+      image: 'https://cdn.poehali.dev/projects/cd648560-8c61-45b5-8f1e-b960cc3a3063/files/36cc0ee0-aaf1-4224-8d24-5b1cc56fc0d3.jpg',
+      author: 'Сервер Phoenix'
     }
   ];
 
   const masterClasses = [
     {
-      title: 'Создание столешницы с эффектом океана',
-      duration: '3 часа',
-      level: 'Средний',
-      price: 3500
+      title: 'Гайд по прокачке 1-85 уровень',
+      duration: 'x5 рейты',
+      level: 'Новичок',
+      price: 0
     },
     {
-      title: 'Ювелирные украшения из эпоксидной смолы',
-      duration: '2 часа',
-      level: 'Начинающий',
-      price: 2500
+      title: 'Лучшие билды для PvP',
+      duration: 'х7 рейты',
+      level: 'Опытный',
+      price: 0
     },
     {
-      title: 'Картины в технике Resin Art',
-      duration: '4 часа',
-      level: 'Продвинутый',
-      price: 4500
+      title: 'Тактики осады замков',
+      duration: 'х10 рейты',
+      level: 'Профи',
+      price: 0
     }
   ];
 
   const categories = [
-    { id: 'all', name: 'Все товары', icon: 'Grid3x3' },
-    { id: 'resin', name: 'Смола', icon: 'Droplets' },
-    { id: 'pigments', name: 'Пигменты', icon: 'Palette' },
-    { id: 'molds', name: 'Формы', icon: 'Square' },
-    { id: 'tools', name: 'Инструменты', icon: 'Wrench' }
+    { id: 'all', name: 'Всё', icon: 'Grid3x3' },
+    { id: 'weapons', name: 'Оружие', icon: 'Sword' },
+    { id: 'armor', name: 'Броня', icon: 'Shield' },
+    { id: 'crystals', name: 'Кристаллы', icon: 'Gem' },
+    { id: 'consumables', name: 'Расходники', icon: 'Package' }
   ];
 
   const filteredProducts = products.filter(product => {
@@ -172,14 +172,14 @@ const Index = () => {
               <div className="w-10 h-10 rounded-full bg-gradient-resin resin-glow flex items-center justify-center">
                 <Icon name="Droplets" size={24} className="text-white" />
               </div>
-              <h1 className="text-2xl md:text-3xl font-bold text-gradient">ResinCraft</h1>
+              <h1 className="text-2xl md:text-3xl font-bold text-gradient">Lineage II</h1>
             </div>
             
             <nav className="hidden md:flex gap-6">
-              <a href="#catalog" className="text-foreground/80 hover:text-foreground transition-colors">Каталог</a>
-              <a href="#gallery" className="text-foreground/80 hover:text-foreground transition-colors">Галерея</a>
-              <a href="#courses" className="text-foreground/80 hover:text-foreground transition-colors">Обучение</a>
-              <a href="#about" className="text-foreground/80 hover:text-foreground transition-colors">О нас</a>
+              <a href="#catalog" className="text-foreground/80 hover:text-foreground transition-colors">Магазин</a>
+              <a href="#gallery" className="text-foreground/80 hover:text-foreground transition-colors">Скриншоты</a>
+              <a href="#courses" className="text-foreground/80 hover:text-foreground transition-colors">Серверы</a>
+              <a href="#about" className="text-foreground/80 hover:text-foreground transition-colors">О проекте</a>
             </nav>
 
             <Sheet>
@@ -250,23 +250,23 @@ const Index = () => {
       <section className="relative py-32 overflow-hidden wave-bg">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <Badge className="mb-6 bg-gradient-resin border-0 text-white">✨ Творите с нами</Badge>
+            <Badge className="mb-6 bg-gradient-resin border-0 text-white">⚔️ Войди в легенду</Badge>
             <h2 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Эпоксидная смола
-              <span className="block text-gradient mt-2">для ваших шедевров</span>
+              Lineage II
+              <span className="block text-gradient mt-2">Private Server</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Премиальные материалы для создания уникальных изделий из эпоксидной смолы. 
-              Столы, украшения, декор — воплотите свои идеи в жизнь.
+              Лучший приватный сервер Lineage 2. Высокие рейты, стабильная работа, активное комьюнити.
+              Эпические осады замков и PvP-баталии ждут тебя!
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Button size="lg" className="bg-gradient-resin hover:opacity-90 hover-scale resin-glow">
-                <Icon name="ShoppingBag" className="mr-2" size={20} />
-                Каталог товаров
+                <Icon name="Play" className="mr-2" size={20} />
+                Начать играть
               </Button>
               <Button size="lg" variant="outline" className="glass-card hover-scale">
-                <Icon name="GraduationCap" className="mr-2" size={20} />
-                Мастер-классы
+                <Icon name="Download" className="mr-2" size={20} />
+                Скачать клиент
               </Button>
             </div>
           </div>
@@ -276,15 +276,15 @@ const Index = () => {
       <section id="catalog" className="py-16 border-t border-white/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-bold mb-4">Каталог материалов</h3>
-            <p className="text-muted-foreground text-lg">Всё необходимое для работы с эпоксидной смолой</p>
+            <h3 className="text-4xl font-bold mb-4">Игровой магазин</h3>
+            <p className="text-muted-foreground text-lg">Купи донат предметы и стань сильнее</p>
           </div>
 
           <div className="max-w-xl mx-auto mb-8">
             <div className="relative">
               <Icon name="Search" className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" size={20} />
               <Input
-                placeholder="Поиск товаров..."
+                placeholder="Поиск предметов..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10 glass-card"
@@ -349,8 +349,8 @@ const Index = () => {
       <section id="gallery" className="py-16 bg-gradient-to-b from-transparent to-card/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-bold mb-4">Галерея работ</h3>
-            <p className="text-muted-foreground text-lg">Вдохновляйтесь работами наших мастеров</p>
+            <h3 className="text-4xl font-bold mb-4">Скриншоты игры</h3>
+            <p className="text-muted-foreground text-lg">Эпические моменты наших игроков</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {galleryWorks.map((work, i) => (
@@ -380,8 +380,8 @@ const Index = () => {
       <section id="courses" className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-bold mb-4">Мастер-классы</h3>
-            <p className="text-muted-foreground text-lg">Научитесь создавать шедевры своими руками</p>
+            <h3 className="text-4xl font-bold mb-4">Информация о сервере</h3>
+            <p className="text-muted-foreground text-lg">Выбери свой сервер и начни путь героя</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {masterClasses.map((course, i) => (
@@ -404,7 +404,7 @@ const Index = () => {
                 </CardContent>
                 <CardFooter>
                   <Button className="w-full bg-gradient-resin hover:opacity-90">
-                    Записаться
+                    Выбрать сервер
                   </Button>
                 </CardFooter>
               </Card>
@@ -423,54 +423,54 @@ const Index = () => {
             <Card className="glass-card resin-glow">
               <CardContent className="p-8">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                  ResinCraft — это профессиональный магазин материалов для работы с эпоксидной смолой. 
-                  Мы предлагаем только качественную продукцию от проверенных производителей и помогаем 
-                  мастерам воплощать самые смелые творческие идеи.
+                  Наш проект Lineage II существует уже более 5 лет. Мы создали стабильный и сбалансированный мир,
+                  где каждый игрок может проявить себя. Профессиональная команда администрации, регулярные обновления
+                  и события делают игру увлекательной каждый день.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-resin rounded-full flex items-center justify-center mx-auto mb-4 resin-glow">
                       <Icon name="CheckCircle2" size={32} className="text-white" />
                     </div>
-                    <h4 className="font-semibold text-lg mb-2">Качество</h4>
-                    <p className="text-sm text-muted-foreground">Только сертифицированные материалы</p>
+                    <h4 className="font-semibold text-lg mb-2">Стабильность</h4>
+                    <p className="text-sm text-muted-foreground">Серверы работают 24/7 без лагов</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-resin rounded-full flex items-center justify-center mx-auto mb-4 resin-glow">
                       <Icon name="Truck" size={32} className="text-white" />
                     </div>
-                    <h4 className="font-semibold text-lg mb-2">Доставка</h4>
-                    <p className="text-sm text-muted-foreground">Быстрая доставка по всей России</p>
+                    <h4 className="font-semibold text-lg mb-2">Баланс</h4>
+                    <p className="text-sm text-muted-foreground">Честная игра без читеров</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-resin rounded-full flex items-center justify-center mx-auto mb-4 resin-glow">
                       <Icon name="Users" size={32} className="text-white" />
                     </div>
-                    <h4 className="font-semibold text-lg mb-2">Поддержка</h4>
-                    <p className="text-sm text-muted-foreground">Консультации опытных мастеров</p>
+                    <h4 className="font-semibold text-lg mb-2">Сообщество</h4>
+                    <p className="text-sm text-muted-foreground">Активное комьюнити и кланы</p>
                   </div>
                 </div>
 
                 <Accordion type="single" collapsible className="mt-12">
                   <AccordionItem value="item-1" className="border-white/10">
-                    <AccordionTrigger className="text-lg">Как выбрать смолу для моего проекта?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg">Какие рейты на сервере?</AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      Выбор смолы зависит от типа изделия. Для столов подходит River Table, для украшений — Crystal Pro. 
-                      Наши консультанты помогут подобрать оптимальный вариант.
+                      У нас 3 сервера с разными рейтами: х5 (классика), х7 (средние) и х10 (быстрая прокачка).
+                      Выбирайте тот, который подходит вашему стилю игры.
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2" className="border-white/10">
-                    <AccordionTrigger className="text-lg">Какие инструменты необходимы для начала работы?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg">Как начать играть?</AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      Базовый набор включает: смолу, отвердитель, формы, пигменты, миксер, защитные перчатки 
-                      и одноразовые стаканчики для смешивания.
+                      Скачайте клиент игры, зарегистрируйтесь на сайте, создайте персонажа и начните свое приключение.
+                      Новичкам выдается стартовый набор для быстрого старта.
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-3" className="border-white/10">
-                    <AccordionTrigger className="text-lg">Предоставляете ли вы обучение?</AccordionTrigger>
+                    <AccordionTrigger className="text-lg">Есть ли донат?</AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
-                      Да! Мы регулярно проводим мастер-классы для начинающих и опытных мастеров. 
-                      Записаться можно в разделе "Мастер-классы".
+                      Да, но он не влияет на баланс игры. Донат позволяет ускорить прокачку и получить
+                      косметические предметы. Всё игровое можно получить без вложений.
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -488,35 +488,35 @@ const Index = () => {
                 <div className="w-10 h-10 rounded-full bg-gradient-resin resin-glow flex items-center justify-center">
                   <Icon name="Droplets" size={24} className="text-white" />
                 </div>
-                <h4 className="font-bold text-xl text-gradient">ResinCraft</h4>
+                <h4 className="font-bold text-xl text-gradient">Lineage II</h4>
               </div>
               <p className="text-muted-foreground">
-                Материалы для создания уникальных изделий из эпоксидной смолы
+                Легендарная MMORPG. Войди в мир приключений
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Каталог</h4>
+              <h4 className="font-semibold mb-4">Игра</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p className="hover:text-foreground cursor-pointer transition-colors">Эпоксидная смола</p>
-                <p className="hover:text-foreground cursor-pointer transition-colors">Пигменты и красители</p>
-                <p className="hover:text-foreground cursor-pointer transition-colors">Формы и молды</p>
-                <p className="hover:text-foreground cursor-pointer transition-colors">Инструменты</p>
+                <p className="hover:text-foreground cursor-pointer transition-colors">Скачать клиент</p>
+                <p className="hover:text-foreground cursor-pointer transition-colors">Регистрация</p>
+                <p className="hover:text-foreground cursor-pointer transition-colors">Новости</p>
+                <p className="hover:text-foreground cursor-pointer transition-colors">Форум</p>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Контакты</h4>
+              <h4 className="font-semibold mb-4">Поддержка</h4>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center gap-2">
-                  <Icon name="Phone" size={16} />
-                  +7 (999) 456-78-90
+                  <Icon name="MessageSquare" size={16} />
+                  Discord сервер
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  info@resincraft.ru
+                  support@lineage2.ru
                 </p>
                 <p className="flex items-center gap-2">
-                  <Icon name="MapPin" size={16} />
-                  Москва, ул. Мастеров, 45
+                  <Icon name="Users" size={16} />
+                  Онлайн: 2,450 игроков
                 </p>
               </div>
             </div>
@@ -536,7 +536,7 @@ const Index = () => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-white/10 text-center text-muted-foreground">
-            © 2024 ResinCraft. Творите с вдохновением.
+            © 2024 Lineage II Private Server. Все права защищены.
           </div>
         </div>
       </footer>
